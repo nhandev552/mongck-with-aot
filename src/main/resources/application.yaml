@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:dolenglish%402020@localhost:27017/mongock?authSource=admin
+
+mongock:
+  change-logs-scan-package: com.example.mongockaot.migration
+  migration-scan-package: com.example.mongockaot.migration
